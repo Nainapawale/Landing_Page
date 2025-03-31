@@ -101,7 +101,7 @@ button:hover {
 
 .product-box:hover {
   transform: scale(1.05);
-  animation: shake 0.3s ease-in-out;
+  animation: pluse 0.3s ease-in-out;
 }
 
 .product-box img {
@@ -272,13 +272,22 @@ button:hover {
 }
 
 @keyframes shake {
-  0% { transform: translateX(0); }
-  25% { transform: translateX(-5px); }
-  50% { transform: translateX(5px); }
-  75% { transform: translateX(-5px); }
-  100% { transform: translateX(0); }
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
-
 
 @keyframes fadeInRight {
   from {
